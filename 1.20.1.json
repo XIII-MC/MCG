@@ -23,6 +23,8 @@
       "${user_type}",
       "--versionType",
       "${version_type}",
+      "--tweakClass",
+      "optifine.OptiFineTweaker",
       {
         "rules": [
           {
