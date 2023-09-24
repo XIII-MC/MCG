@@ -1468,7 +1468,7 @@
                     "path": "optifine/OptiFine/1.20.1_HD_U_I5/OptiFine_1.20.1_HD_U_I5.jar",
                     "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
                     "size": 0,
-                    "url": "https://github.com/XIII-MC/MCG/blob/main/OptiFine_1.20.1_HD_U_I5.jar?raw=true"
+                    "url": "https://github.com/XIII-MC/MCG/blob/main/libs/1.20.1/OptiFine_1.20.1_HD_U_I5.jar?raw=true"
                 }
             }
     },
@@ -1479,7 +1479,7 @@
                     "path": "optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar",
                     "sha1": "073b25f1667904d481b10f706288c95ea9656f0c",
                     "size": 0,
-                    "url": "https://github.com/XIII-MC/MCG/blob/main/launchwrapper-of-2.3.jar?raw=true"
+                    "url": "https://github.com/XIII-MC/MCG/blob/main/libs/1.20.1/launchwrapper-of-2.3.jar?raw=true"
                 }
             }
     }
