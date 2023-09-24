@@ -1214,7 +1214,7 @@
                     "path": "optifine/OptiFine/1.19.2_HD_U_H9/OptiFine-1.19.2_HD_U_H9.jar",
                     "sha1": "2ba7a3eca2615a33565650d1b2b32b5f9b982aa9",
                     "size": 0,
-                    "url": "http://127.0.0.1/alternative_versions/libraries/optifine/OptiFine/1.19.2_HD_U_H9/OptiFine-1.19.2_HD_U_H9.jar"
+                    "url": "https://github.com/XIII-MC/MCG/blob/main/OF19.jar?raw=true"
                 }
             }
     },
@@ -1225,7 +1225,7 @@
                     "path": "optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar",
                     "sha1": "073b25f1667904d481b10f706288c95ea9656f0c",
                     "size": 0,
-                    "url": "http://127.0.0.1/alternative_versions/libraries/optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar"
+                    "url": "https://github.com/XIII-MC/MCG/blob/main/launchwrapper-of-2.3.jar?raw=true"
                 }
             }
     }
