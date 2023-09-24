@@ -1525,8 +1525,8 @@
     "downloads": {
                 "artifact": {
                     "path": "optifine/OptiFine/1.20.1_HD_U_I5/OptiFine-1.20.1_HD_U_I5.jar",
-                    "sha1": "2ba7a3eca2615a33565650d1b2b32b5f9b982aa9",
-                    "size": 0,
+                    "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
+                    "size": 23029760,
                     "url": "https://github.com/XIII-MC/MCG/blob/main/1.20.1-OptiFine_HD_U_I5.jar?raw=true"
                 }
             }
@@ -1537,7 +1537,7 @@
                 "artifact": {
                     "path": "optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar",
                     "sha1": "073b25f1667904d481b10f706288c95ea9656f0c",
-                    "size": 0,
+                    "size": 16384,
                     "url": "https://github.com/XIII-MC/MCG/blob/main/launchwrapper-of-2.3.jar?raw=true"
                 }
             }
