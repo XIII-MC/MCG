@@ -184,7 +184,7 @@
       "url": "https://piston-data.mojang.com/v1/objects/0b4dba049482496c507b2387a73a913230ebbd76/server.txt"
     }
   },
-  "id": "1.20.1",
+  "id": "1.20.1-OptiFine_HD_U_I5",
   "javaVersion": {
     "component": "java-runtime-gamma",
     "majorVersion": 17
@@ -1517,6 +1517,28 @@
         }
       },
       "name": "org.slf4j:slf4j-api:2.0.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "optifine/OptiFine/1.20.1_HD_U_I5/OptiFine-1.20.1_HD_U_I5.jar",
+          "sha1": "2ba7a3eca2615a33565650d1b2b32b5f9b982aa9",
+          "size": 0,
+          "url": "https://github.com/XIII-MC/MCG/blob/main/1.20.1-OptiFine_HD_U_I5.jar?raw=true"
+        }
+      },
+      "name": "optifine:OptiFine:1.20.1_HD_U_I5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar",
+          "sha1": "073b25f1667904d481b10f706288c95ea9656f0c",
+          "size": 0,
+          "url": "https://github.com/XIII-MC/MCG/blob/main/launchwrapper-of-2.3.jar?raw=true"
+        }
+      },
+      "name": "optifine:launchwrapper-of:2.3",
     }
   ],
   "logging": {
@@ -1531,7 +1553,7 @@
       "type": "log4j2-xml"
     }
   },
-  "mainClass": "net.minecraft.client.main.Main",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 21,
   "releaseTime": "2023-06-12T13:25:51+00:00",
   "time": "2023-06-12T13:25:51+00:00",
