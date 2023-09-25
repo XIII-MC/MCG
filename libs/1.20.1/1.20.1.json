@@ -23,8 +23,6 @@
       "${user_type}",
       "--versionType",
       "${version_type}",
-      "--tweakClass",
-      "optifine.OptiFineTweaker",
       {
         "rules": [
           {
@@ -50,6 +48,62 @@
           "${resolution_width}",
           "--height",
           "${resolution_height}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "has_quick_plays_support": true
+            }
+          }
+        ],
+        "value": [
+          "--quickPlayPath",
+          "${quickPlayPath}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_quick_play_singleplayer": true
+            }
+          }
+        ],
+        "value": [
+          "--quickPlaySingleplayer",
+          "${quickPlaySingleplayer}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_quick_play_multiplayer": true
+            }
+          }
+        ],
+        "value": [
+          "--quickPlayMultiplayer",
+          "${quickPlayMultiplayer}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_quick_play_realms": true
+            }
+          }
+        ],
+        "value": [
+          "--quickPlayRealms",
+          "${quickPlayRealms}"
         ]
       }
     ],
@@ -90,6 +144,9 @@
         "value": "-Xss1M"
       },
       "-Djava.library.path=${natives_directory}",
+      "-Djna.tmpdir=${natives_directory}",
+      "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}",
+      "-Dio.netty.native.workdir=${natives_directory}",
       "-Dminecraft.launcher.brand=${launcher_name}",
       "-Dminecraft.launcher.version=${launcher_version}",
       "-cp",
@@ -127,7 +184,7 @@
       "url": "https://piston-data.mojang.com/v1/objects/0b4dba049482496c507b2387a73a913230ebbd76/server.txt"
     }
   },
-  "id": "OptiFine_1.20.1_HD_U_I5",
+  "id": "1.20.1",
   "javaVersion": {
     "component": "java-runtime-gamma",
     "majorVersion": 17
@@ -1460,28 +1517,6 @@
         }
       },
       "name": "org.slf4j:slf4j-api:2.0.1"
-    },
-    {
-      "name": "optifine:OptiFine:1.20.1_HD_U_I5",
-      "downloads": {
-        "artifact": {
-          "path": "optifine/OptiFine/1.20.1_HD_U_I5/OptiFine_1.20.1_HD_U_I5.jar",
-          "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
-          "size": 0,
-          "url": "https://github.com/XIII-MC/MCG/blob/main/libs/1.20.1/OptiFine_1.20.1_HD_U_I5.jar?raw=true"
-        }
-      }
-    },
-    {
-      "name": "optifine:launchwrapper-of:2.3",
-      "downloads": {
-        "artifact": {
-          "path": "optifine/launchwrapper-of/2.3/launchwrapper-of-2.3.jar",
-          "sha1": "073b25f1667904d481b10f706288c95ea9656f0c",
-          "size": 0,
-          "url": "https://github.com/XIII-MC/MCG/blob/main/libs/1.20.1/launchwrapper-of-2.3.jar?raw=true"
-        }
-      }
     }
   ],
   "logging": {
@@ -1491,12 +1526,12 @@
         "id": "client-1.12.xml",
         "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
         "size": 888,
-        "url": "https://launcher.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+        "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
       },
       "type": "log4j2-xml"
     }
   },
-  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "mainClass": "net.minecraft.client.main.Main",
   "minimumLauncherVersion": 21,
   "releaseTime": "2023-06-12T13:25:51+00:00",
   "time": "2023-06-12T13:25:51+00:00",
